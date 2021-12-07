@@ -7,6 +7,10 @@
   <title>Best Tour Plan - Hotel Booking</title>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -94,12 +98,38 @@
           <span class="rating__counter">4.5/5</span>
         </div>
         <!-- /.hotel-info__rating -->
-
       </div>
       <!-- /.hotel-info -->
-    </div>
+      <div class="hotel-grid">
+        <div class="slider">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img class="swiper swiper-slide__img" src="img/slide.jpg" alt="slide">
+              </div>
+              <div class="swiper-slide">
+                <img class="swiper swiper-slide__img" src="img/slide.jpg" alt="slide">
+              </div>
+              <div class="swiper-slide">
+                <img class="swiper swiper-slide__img" src="img/slide.jpg" alt="slide">
+              </div>
+            </div>         
+            <!-- If we need navigation buttons -->
+            <button class="slider-button slider-button--prev"></button>
+            <button class="slider-button slider-button--next"></button>
+          </div>
+        </div>
+        <!-- /.slider -->
+      </div> 
+      <!-- /.hotel-grid -->
+</div>
     <!-- /.container -->
-    
   </section>
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
