@@ -658,8 +658,8 @@ template {
     background-color: #333333;
   }
   .stars {
-    -ms-flex-preferred-size: content;
-        flex-basis: content;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
   }
   .hotel-wrapper {
     -webkit-box-pack: justify;
