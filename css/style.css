@@ -866,7 +866,7 @@ template {
 
 .subscribe {
   position: relative;
-  width: 355px;
+  width: 350px;
   height: 55px;
   border-radius: 4px;
   overflow: hidden;
@@ -1041,7 +1041,7 @@ template {
   .container {
     max-width: 960px;
   }
-  .slider {
+  .hotel__slide {
     width: 590px;
   }
   .hotel-slider__img {
