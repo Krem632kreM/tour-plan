@@ -1181,8 +1181,9 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   grid-row: 2/4;
@@ -1284,6 +1285,8 @@ template {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   margin-bottom: 23px;
+  width: 539px;
+  height: 123px;
 }
 
 .footer__button {
@@ -1305,17 +1308,17 @@ template {
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
-  color: #BDBDBD;
+  color: #E0E0E0;
 }
 
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
   }
-  .hotel__slide {
-    width: 590px;
+  .hotel-slider {
+    width: 575px;
   }
-  .hotel-slider__img {
+  .hotel-slider__image {
     height: 100%;
     width: 100%;
     -o-object-fit: cover;
